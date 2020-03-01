@@ -9,7 +9,8 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -84,7 +85,8 @@ sub {
 }
 
 img {
-    border: 0
+    border: 0;
+    object-fit: cover;
 }
 
 svg:not(:root) {
@@ -266,7 +268,8 @@ td, th {
 
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -303,7 +306,10 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    display: block;
+    max-width: 100%;
+    height: auto
 }
 
 .img-responsive {
@@ -4473,8 +4479,13 @@ body {
     overflow: hidden
 }
 
-.white-text-container a, .white-text-container h1, .white-text-container h2, .white-text-container h3, .white-text-container h4, .white-text-container h5, .white-text-container p {
+.white-text-container h1, .white-text-container h2, .white-text-container h3, .white-text-container h4, .white-text-container h5, .white-text-container p {
     color: #fff
+}
+
+.white-text-container a {
+    color: #fff;
+    background-color: #8acfc5;
 }
 
 .title-container h1 {
@@ -4554,7 +4565,7 @@ ul.social {
         width: 3em;
         height: 3em;
         text-align: center;
-        border-radius: 22px;
+        border-radius: 30px;
         background: #888;
         -moz-transition: background-color .25s ease-in-out;
         -webkit-transition: background-color .25s ease-in-out;
@@ -4635,6 +4646,71 @@ fa {
 fa:hover {
     opacity: 0.7;
 }
+
+/* Box */
+
+.box {
+    background: #dec3ff;
+    border-bottom: solid 1px #ccc;
+    padding: 2.75em 1.75em 2.75em 1.75em;
+}
+
+.box .image.featured {
+    position: relative;
+    width: 100%;
+    left: 1.75em;
+    top: 1.75em;
+    margin: -4.5em 0 4.25em -3.5em;
+    heigth: auto;
+    object-fit: contain;
+}
+
+.box header {
+    padding-top: 1em;
+    margin: 0 0 2em 0;
+}
+
+.box h2 {
+    font-size: 2.5em;
+    letter-spacing: -0.015em;
+}
+
+.box header > p {
+    margin-top: 1.25em;
+    font-size: 1.25em;
+}
+
+.box footer ul.actions {
+    margin-bottom: 0;
+}
+
+
+/* Polaroid */
+.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.polaroid header {
+    text-align: center;
+}
+
+.polaroid p {
+    /* text-align: center; */
+    margin-top: 0.25em;
+}
+
+.polaroid header > h3 {
+    text-align: center;
+}
+
+.polaroid footer ul.actions {
+    margin-bottom: 0;
+}
+
+
 
 /* Contact */
 
