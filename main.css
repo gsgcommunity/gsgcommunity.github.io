@@ -18,7 +18,7 @@ body {
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-    display: block
+    display: block;
 }
 
 audio, canvas, progress, video {
@@ -36,7 +36,7 @@ audio:not([controls]) {
 }
 
 a {
-    background-color: #FFFBDA
+    /* background-color: #FFFBDA */
 }
 
 a:active, a:hover {
@@ -85,12 +85,19 @@ sub {
 }
 
 img {
-    border: 0;
+    border: 0px;
     object-fit: cover;
 }
 
 svg:not(:root) {
     overflow: hidden
+}
+
+.svg {
+    vertical-align: top;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: inherit;
 }
 
 figure {
@@ -277,7 +284,7 @@ body {
     font-size: 16px;
     line-height: 1.42857;
     color: #585858;
-    background-color: #fff
+    background-color: #fff;
 }
 
 button, input, select, textarea {
@@ -4485,7 +4492,7 @@ body {
 
 .white-text-container a {
     color: #fff;
-    background-color: #8acfc5;
+    /* background-color: #8acfc5; */
 }
 
 .title-container h1 {
@@ -4510,7 +4517,7 @@ body {
 
 #navv > ul > li {
     display: inline-block;
-    font-style: italic;
+    font-style: normal;
     margin: 0 0.35em 0 0.35em;
 }
 
@@ -4689,8 +4696,9 @@ fa:hover {
 .polaroid {
     width: 100%;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
 .polaroid header {
@@ -4699,15 +4707,35 @@ fa:hover {
 
 .polaroid p {
     /* text-align: center; */
-    margin-top: 0.25em;
+    margin-top: 0.450em;
+    margin-left: 0.45em;
+    margin-right: 0.45em;
 }
 
 .polaroid header > h3 {
     text-align: center;
 }
 
+ul.actions{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    cursor: default;
+    margin: 1.0em 1.0em 3.25em 1.0em;
+}
+
+ul.actions li {
+    display: inline-block;
+    padding-left: 0;
+    margin-left: 0.75em;
+}
+
 .polaroid footer ul.actions {
     margin-bottom: 0;
+    margin-left: 0;
+    display: inline-block;
+    text-decoration: none;
+    margin: 1px 1px;    
 }
 
 
@@ -4738,7 +4766,9 @@ ul.contact li h3 {
 }
 
 .footer-container {
-    background-color: #8acfc5;
+    background: rgb(47,147,149);
+    background: linear-gradient(0deg, rgba(47,147,149,1) 0%, rgba(67,170,165,1) 35%, rgba(138,207,197,1) 67%, rgba(210,233,230,1) 87%, rgba(255,255,255,1) 100%);
+    /* background-color: #8acfc5; */
     padding: 60px 0;
     margin-top: 30px
 }
@@ -4793,14 +4823,14 @@ ul.contact li h3 {
     display: none
 }
 
-@media (min-width: 992px) {
+@media (min-width: 995px) {
     .section-label {
         display: flex;
         color: #fff;
         font-size: 7em;
         font-family: Abril Fatface, Times New Roman, Times, serif;
         position: absolute;
-        left: 50%;
+        left: 49%;
         z-index: 2;
         top: 0;
         height: 100%;
@@ -4809,8 +4839,8 @@ ul.contact li h3 {
     }
 
     .section-label p {
-        width: 260px;
-        margin-left: -130px;
+        width: 320px;
+        margin-left: -100px;
         word-break: break-all
     }
 }
@@ -4821,7 +4851,7 @@ ul.contact li h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    padding: 12% 0
+    padding: 0% 0;
 }
 
 .overlay {
