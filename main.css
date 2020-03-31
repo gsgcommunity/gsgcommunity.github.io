@@ -98,6 +98,11 @@ svg:not(:root) {
     max-width: inherit;
 }
 
+.svg-header {
+    margin: auto;
+    width: 70%;
+}
+
 figure {
     margin: 1em 40px
 }
@@ -324,7 +329,8 @@ img {
     vertical-align: middle;
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    /* width: 50%; */
 }
 
 .img-responsive {
