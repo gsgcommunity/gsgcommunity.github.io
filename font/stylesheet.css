@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'blocktregular';
-    src: url('blockt-webfont.woff2') format('woff2'),
-         url('blockt-webfont.woff') format('woff');
+    src: url('./blockt-webfont.woff2') format('woff2'),
+         url('./blockt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
