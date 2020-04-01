@@ -103,6 +103,13 @@ svg:not(:root) {
     width: 70%;
 }
 
+.svg-partner {
+    margin: auto;
+    width: 80%;
+    padding: inherit;
+    opacity: 0.7;
+}
+
 figure {
     margin: 1em 40px
 }
@@ -336,7 +343,7 @@ img {
 .img-responsive {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -4673,12 +4680,15 @@ ul.social {
     }
 
 fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    /* border-radius: 50%; */
+    /* background: #535353; */
 }
 
 fa:hover {
@@ -5079,16 +5089,16 @@ h2.text-center:after {
     list-style: none;
     margin: 0;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .list-icons li {
     float: left;
-    width: 32px;
+    /* width: 32px; */
     height: 32px;
-    line-height: 32px;
+    /* line-height: 32px; */
     display: block;
-    margin: 30px 30px 0 0
+    margin: 30px 30px 0 0;
 }
 
 /*# sourceMappingURL=main.faaf51f9.map*/
