@@ -403,7 +403,7 @@ hr {
     font-family: Abril Fatface, Times New Roman, Times, serif;
     font-weight: 500;
     line-height: 1.1;
-    color: #000
+    color: #000;
 }
 
 .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
@@ -2443,9 +2443,9 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #8acfc5;
-    border-color: #8acfc5
+    color: #DAEAE9;
+    background-color: #285E5C;
+    border-color: #285E5C;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -3787,7 +3787,7 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
-    color: #585858;
+    color: #285E5C;
     font-size: 22px;
     font-family: Khand,Helvetica,Arial,sans-serif;
 }
@@ -4807,11 +4807,13 @@ ul.contact li h3 {
 }
 
 .footer-container {
-    background: rgb(47,147,149);
-    background: linear-gradient(0deg, rgba(47,147,149,1) 0%, rgba(67,170,165,1) 35%, rgba(138,207,197,1) 67%, rgba(210,233,230,1) 87%, rgba(255,255,255,1) 100%);
-    /* background-color: #8acfc5; */
-    padding: 60px 0;
-    margin-top: 30px
+    /* background: rgb(47,147,149); */
+    /* background: linear-gradient(0deg, rgba(47,147,149,1) 0%, rgba(67,170,165,1) 35%, rgba(138,207,197,1) 67%, rgba(210,233,230,1) 87%, rgba(255,255,255,1) 100%); */
+    background-color: #285E5C;
+    padding: 30px 0;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #DAEAE9;
 }
 
 .footer-input-text {
@@ -5052,10 +5054,10 @@ ul.contact li h3 {
 h2:after {
     content: "";
     display: block;
-    background-color: #66c0b3;
+    background-color: #50BCB8;
     height: 3px;
     margin: 20px 0;
-    width: 70px
+    width: 70px;
 }
 
 h2.text-center:after {
