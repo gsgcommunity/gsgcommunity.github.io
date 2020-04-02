@@ -414,7 +414,8 @@ hr {
 
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 22px;
-    margin-bottom: 11px
+    margin-bottom: 11px;
+    padding-top: 25px;
 }
 
 .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
@@ -4779,8 +4780,6 @@ ul.actions li {
     margin: 1px 1px;    
 }
 
-
-
 /* Contact */
 
 ul.contact li {
@@ -4911,7 +4910,7 @@ ul.contact li h3 {
 }
 
 .section-container-spacer {
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 .btn {
