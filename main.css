@@ -602,7 +602,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 ol, ul {
     margin-top: 0;
-    margin-bottom: 11px
+    margin-bottom: 11px;
 }
 
 ol ol, ol ul, ul ol, ul ul {
@@ -5091,6 +5091,7 @@ h2.text-center:after {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    margin-bottom: 15px;
 }
 
 .list-icons li {
@@ -5099,7 +5100,7 @@ h2.text-center:after {
     height: 32px;
     /* line-height: 32px; */
     display: block;
-    margin: 30px 30px 0 0;
+    margin: 10px 30px 0 0;
 }
 
 /*# sourceMappingURL=main.faaf51f9.map*/
