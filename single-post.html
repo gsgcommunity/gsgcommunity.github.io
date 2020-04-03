@@ -1,0 +1,118 @@
+<!-- Add your content of head and header -->
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Add icon and font library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script>
+    $(function(){
+        $("#header-menu").load("templates/menu-header.html");
+        $("#header-image").load("templates/image-header.html");
+        $("#footer").load("templates/footer.html");
+        $("#partner-section").load("templates/partner-section.html");
+        $("#events-posts").load("templates/events-posts.html");
+    });
+</script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta content="description" name="description">
+    <meta name="google" content="notranslate" />
+    
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="shortcut icon" href="./assets/icons/icn-11.svg"/>
+  
+    <title>GSG - Girls Support Girls</title>
+  
+      <link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+      <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />	
+      <link href="./main.css" rel="stylesheet">
+  </head>
+
+<body>
+    <!-- PRE LOADER -->
+
+    <div class="preloader">
+        <div class="sk-spinner sk-spinner-wordpress">
+            <span class="sk-inner-circle"></span>
+        </div>
+    </div>
+    <!-- Add your content of header -->
+    <header>
+        <div id="header-menu"></div>
+    </header>
+
+    <!-- Add your content here -->
+    <section id="blog-single-post">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <div class="blog-single-post-thumb">
+                        <div class="blog-post-title">
+                            <h2>Vivamus euismod tempor interdum</h2>
+                        </div>
+
+                        <div class="blog-post-format">
+                            <span><a href="#"><img src="assets/images/lead-bw01.png" class="img-responsive img-circle">
+                                    Mírian Silva </a></span>
+                            <span><i class="fa fa-date"></i> 22 Março, 2020</span>
+                        </div>
+
+                        <div class="blog-post-des">
+                            <p>Vivamus euismod tempor interdum. Vivamus non scelerisque ex, et interdum leo. In bibendum
+                                lacus vitae felis egestas, at consectetur metus facilisis. Morbi tellus dolor, porta
+                                dignissim enim sit amet, dapibus sagittis erat. In blandit elit sit amet dui aliquet
+                                congue nec vel quam. Integer id tristique libero.</p>
+                            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. </blockquote>
+                            <p>Integer vestibulum vitae arcu vel consectetur. Morbi nisl enim, elementum eget enim nec,
+                                posuere commodo mi. Proin elementum metus et dolor posuere placerat. Proin in sagittis
+                                justo. Nulla tincidunt eu velit elementum accumsan.</p>
+
+                            <div class="blog-post-image">
+                                <img src="assets/images/post-01-wallpaper.jpg" class="img-responsive"
+                                    alt="Blog Image 3">
+                            </div>
+
+                            <h3>What is Personal Blog Theme?</h3>
+                            <p>Nulla tincidunt eu velit elementum accumsan. Vivamus euismod tempor interdum. Vivamus non
+                                scelerisque ex, et interdum leo. In bibendum lacus vitae felis egestas, at consectetur
+                                metus facilisis. Morbi tellus dolor, porta dignissim enim sit amet, dapibus sagittis
+                                erat. In blandit elit sit amet dui aliquet congue nec vel quam. Integer id tristique
+                                libero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <footer class="footer-container white-text-container">
+        <div id="footer"></div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            navbarToggleSidebar();
+        });
+    </script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
