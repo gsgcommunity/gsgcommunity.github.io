@@ -111,9 +111,11 @@ img {
 -----------------------------------------*/
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif;
+    font-family: Abril Fatface, Times New Roman, Times, serif;
+    /* font-family: 'Merriweather', serif; */
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
+    line-height: 1.1;
     letter-spacing: 0.5px;
     line-height: 1.1;
     color: #000;
@@ -379,27 +381,34 @@ blockquote {
 -----------------------------------------*/
 
 .btn {
-    display: inline-block;
-    margin-bottom: 0;
     font-weight: 400;
     text-align: center;
     vertical-align: middle;
+    font-size: 16px;
+    line-height: 1.42857;
+    letter-spacing: 1px;
+    padding: 14px 28px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    border-radius: 2px;
     touch-action: manipulation;
     cursor: pointer;
     background-image: none;
     border: 1px solid transparent;
     white-space: nowrap;
     padding: 10px 12px;
-    font-size: 16px;
-    line-height: 1.42857;
-    border-radius: 2px;
+    
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
-    transition: all .2s linear
+    margin-top: 26px;
+    transition: all 0.4s ease-in-out;
 }
 
 .btn-default {
@@ -423,7 +432,7 @@ blockquote {
 .btn-primary {
     color: #DAEAE9;
     background-color: #285E5C;
-    border-color: #285E5C;
+    border-color: #DAEAE9;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -485,10 +494,6 @@ blockquote {
 
 /*---------------------------------------
     navbar - nav      
------------------------------------------*/
-
-/*---------------------------------------
-    Main Navigation             
 -----------------------------------------*/
 
 .navbar-default {
@@ -983,7 +988,7 @@ fa:hover {
     left: 1.75em;
     top: 1.75em;
     margin: -4.5em 0 4.25em -3.5em;
-    heigth: auto;
+    height: auto;
     object-fit: contain;
 }
 
