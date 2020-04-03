@@ -164,6 +164,14 @@ p {
     margin: 0 0 11px
 }
 
+.p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
 .text-primary {
     color: #8acfc5
 }
@@ -1013,7 +1021,7 @@ fa:hover {
 }
 
 /*---------------------------------------
-    BOX FOOTER   
+    Polaroid 
 -----------------------------------------*/
 
 .polaroid {
@@ -1120,26 +1128,74 @@ ul.contact li h3 {
     width: 10%
 }
 
+/* Back top */
+
+.go-top {
+    background-color: #f0f0f0;
+    box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12);
+    transition: all 1s ease;
+    bottom: 2em;
+    right: 2em;
+    color: #333;
+    font-size: 24px;
+    display: none;
+    position: fixed;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.go-top:hover {
+    background: #8acfc5;
+    color: #ffffff;
+}
+
+.fa-angle-up {
+    color: #000;
+}
+
 /*---------------------------------------
     LIST ICONS 
 -----------------------------------------*/
 
 .list-icons {
-    list-style: none;
+    position: relative;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    margin-bottom: 15px;
+    text-align: center;
 }
 
 .list-icons li {
-    float: left;
-    /* width: 32px; */
-    height: 32px;
-    /* line-height: 32px; */
-    display: block;
-    margin: 10px 30px 0 0;
+    list-style: none;
+    display: inline-block;
 }
+
+.list-icons li a {
+    border: 2px solid #f0f0f0;
+    color: #f0f0f0;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 12px 10px 12px;
+}
+
+.list-icons li a:hover {
+    border-color: #8acfc5;
+    color: #8acfc5;
+    transform: scale(1.1);
+}
+
 
 /*---------------------------------------
     HALF SECTION - ABOUT US  
