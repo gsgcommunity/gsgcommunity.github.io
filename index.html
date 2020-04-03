@@ -1,41 +1,44 @@
 <!-- Add your content of head and header -->
 <!DOCTYPE html>
 <html lang="en">
-<!-- Add icon library -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+    
+<!-- Add icon and font library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
+<!-- Main css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script type="text/javascript" src="./main.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
 
 <script>
     $(function(){
         $("#header-menu").load("templates/menu-header.html");
         $("#header-image").load("templates/image-header.html");
         $("#footer").load("templates/footer.html");
+        $("#partner-section").load("templates/partner-section.html");
+        $("#events-posts").load("templates/events-posts.html");
     });
 </script>
 
 <head>
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates have been developped by Orson.io team" name="author">
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-
   <link rel="shortcut icon" href="./assets/icons/icn-11.svg"/>
 
   <title>GSG - Girls Support Girls</title>
 
-<link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
-<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />	
-<link href="./main.css" rel="stylesheet"></head>
+    <link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />	
+    <link href="./main.css" rel="stylesheet"></head>
 
 <body>
 <!-- PRE LOADER -->
@@ -116,122 +119,9 @@
     </div>
 </div>
 
-<div class="section-container" id="eventos-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-12 section-container-spacer">
-                <h2 class="text-center">Eventos</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-3">
-                <img src="./assets/images/post-1.png" alt="" class="img-responsive">
-                <h3 class="text-center">Introdução a Python</h3>
-                <p class="truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
-            </div>
-            <div class="col-xs-12 col-md-3">
-                <img src="./assets/images/post-2.png" alt="" class="img-responsive">
-                <h3 class="text-center">Introdução a Machine Learning</h3>
-                <p class="truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
-            </div>
-            <div class="col-xs-12 col-md-3">
-                <img src="./assets/images/post-3.png" alt="" class="img-responsive">
-                <h3 class="text-center">Primeiros passos com React!</h3>
-                <p class="truncate"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
-            </div>
-            <div class="col-xs-12 col-md-3">
-                <img src="./assets/images/post-4.png" alt="" class="img-responsive">
-                <h3 class="text-center">She's Tech Conference</h3>
-                <p class="truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
-            </div>
-        </div>
-        <div style="text-align:center">
-            <button onclick="location.href='events.html'" class="btn btn-primary anchor-link" title="">Ver mais</button>
-        </div>
-    </div>
-</div>
+<div id="events-posts"></div>
 
-<!-- <div class="section-container" id="leads-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-12 section-container-spacer">
-                <h2 class="text-center">Leads da Comunidade</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/lead-default01.png" alt="" class="img-responsive">
-                <h4 class="text-center">Mírian Silva</h4>
-                <p class="truncate">Software Developer @ X Company.</p>
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/lead-default02.png" alt="" class="img-responsive">
-                <h4 class="text-center">Valéria Souza</h4>
-                <p class="truncate">Software Developer @ Company.</p>
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/lead-default03.png" alt="" class="img-responsive">
-                <h4 class="text-center">Fernanda Ramalho</h4>
-                <p class="truncate"> Software Developer @ Company.</p>
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/lead-default01.png" alt="" class="img-responsive">
-                <h4 class="text-center">Pâmela Carvalho</h4>
-                <p class="truncate">Software Developer @ Company. </p>
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/lead-default02.png" alt="" class="img-responsive">
-                <h4 class="text-center">Franciely Neves</h4>
-                <p class="truncate">Software Developer @ Company. </p>
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/lead-default03.png" alt="" class="img-responsive">
-                <h4 class="text-center">Ingrid Rosselis</h4>
-                <p class="truncate">Software Developer @ Company. </p>
-            </div>
-        </div>
-        <div style="text-align:center">
-            <button onclick="location.href='leads.html'" class="btn btn-primary anchor-link" title="">Conheça Todas as Leads</button>
-        </div>
-    </div>
-</div> -->
-
-<div class="section-container" id="parceiros-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-12 section-container-spacer">
-                <h2 class="text-center">Parcerias</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/gsg-mini-logo-partner.svg" alt="" class="img-responsive svg-partner">
-                </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/gsg-mini-logo-partner.svg" alt="" class="img-responsive svg-partner">
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/gsg-mini-logo-partner.svg" alt="" class="img-responsive svg-partner">
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/gsg-mini-logo-partner.svg" alt="" class="img-responsive svg-partner">
-            </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/gsg-mini-logo-partner.svg" alt="" class="img-responsive svg-partner">
-                </div>
-            <div class="col-xs-12 col-md-2">
-                <img src="./assets/images/gsg-mini-logo-partner.svg" alt="" class="img-responsive svg-partner">
-            </div>
-        </div>
-        <div style="text-align:center">
-            <button onclick="location.href='partners.html'" class="btn btn-primary anchor-link" title="">Quer ser nosso parceiro?</button>
-        </div>
-    </div>
-</div>
+<div id="partner-section"></div>
 
 <footer class="footer-container white-text-container">
     <div id="footer"></div>
