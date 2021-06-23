@@ -1276,10 +1276,11 @@ ul.contact li h3 {
 
 .section-container {
     padding: 20px 0;
+    padding-left: 20px;
 }
 
 .section-container-spacer {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /*---------------------------------------
